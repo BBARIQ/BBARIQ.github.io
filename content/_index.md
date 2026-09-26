@@ -11,7 +11,7 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Sanghoon%20cv.pdf
       headings:
         about: ''
         education: ''
