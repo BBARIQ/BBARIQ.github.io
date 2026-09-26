@@ -1,12 +1,9 @@
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
-# Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://bbariq.github.io/'
 
 ############################
 ## LANGUAGE
@@ -40,7 +37,21 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+# Ignore HugoBlox demo content while building the personal site.
+# These sections can be re-enabled later as real content is added.
+ignoreFiles:
+  - ".ipynb_checkpoints$"
+  - "\\.Rmd$"
+  - "\\.Rmarkdown$"
+  - "_cache$"
+  - "(^|/)blog/"
+  - "(^|/)events/"
+  - "(^|/)publications/"
+  - "(^|/)courses/"
+  - "(^|/)projects/"
+  - "(^|/)slides/"
+
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
