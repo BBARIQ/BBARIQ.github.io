@@ -1,116 +1,126 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Sanghoon Myung
+  given: Sanghoon
+  family: Myung
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+
+role: Principal Engineer
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Sanghoon Myung is a Principal Engineer at the Semiconductor R&D Center,
+  Samsung Electronics, with 16+ years of experience spanning semiconductor
+  device physics, TCAD modeling, and deep learning. His work focuses on
+  physics-informed machine learning, compact modeling, hybrid TCAD–AI
+  simulation, and semiconductor process and device optimization. He has
+  published in venues including ICML, NeurIPS, IEDM, and the Symposium on
+  VLSI Technology and Circuits, and is an inventor on multiple U.S. patents.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Samsung Electronics — Semiconductor R&D Center
+    url: https://semiconductor.samsung.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:smyung.scholar@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/BBARIQ
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/sanghoon-myung/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=OpM9ghYAAAAJ&hl=en
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Physics-Informed Machine Learning
+  - TCAD Simulation
+  - Semiconductor Digital Twins
+  - Compact Modeling
+  - Semiconductor Device & Process Optimization
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: BS in Electronic and Electrical Engineering
+    institution: Kookmin University
+    start: 2003-03-01
+    end: 2010-02-28
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      GPA: 3.9/4.5
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Principal Engineer
+    org: Samsung Electronics — Semiconductor R&D Center
+    start: 2010-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Since 2018, leading research that bridges deep learning and semiconductor
+      physics for device and compact model development. Developed automated
+      pipelines for TCAD data generation and AI model training, calibration
+      methods that align AI models with measurements, and process digital twins
+      integrating TCAD, measurement data, and deep learning. Leads teams of
+      4–5 engineers in model development and deployment.
+
+      From 2010 to 2017, worked as a TCAD Device Engineer on CMOS image sensors,
+      power devices, SRAM junction engineering, and 14 nm FinFET process and
+      device optimization.
 
 skills:
-  - name: Technical Skills
+  - name: Core Competencies
+    items:
+      - label: Physics-Informed Machine Learning
+      - label: TCAD Simulation
+      - label: Predictive Modeling
+      - label: TCAD–AI Hybrid Modeling
+      - label: Semiconductor Device & Process Design
+      - label: Technical Leadership
+  - name: Programming & Tools
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+      - label: LaTeX
+      - label: Verilog-A
+      - label: TensorFlow
+      - label: PyTorch
+      - label: Synopsys TCAD
+      - label: HSPICE
+      - label: MySQL
+      - label: SQLite
 
 awards:
+  - title: Grand Prize — DS CTO Symposium
+    awarder: Samsung Electronics
+    date: "2025-11-01"
+    icon: hero/trophy
+  - title: Excellence Prize — DS AI BP Festival
+    awarder: Samsung Electronics
+    date: "2025-09-01"
+    icon: hero/trophy
+  - title: Innovation Award
+    awarder: Innovation Center
+    date: "2022-05-01"
+    icon: hero/trophy
   - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+    awarder: DIT Center
+    date: "2021-12-01"
+    icon: hero/trophy
+  - title: Task Incentive — V6 Channel Hole Etching
+    awarder: Semiconductor R&D Center
+    date: "2019-09-01"
+    icon: hero/trophy
+  - title: Grand Prize — Samsung Data Science Festival
+    awarder: Samsung Electronics
+    date: "2019-10-01"
+    icon: hero/trophy
+  - title: Silver Prize — Semiconductor R&D e-Journal
+    awarder: Samsung Electronics
+    date: "2019-09-01"
+    icon: hero/trophy
+  - title: Task Incentive — 14 nm Logic FinFET Devices
+    awarder: Semiconductor R&D Center
+    date: "2012-09-01"
     icon: hero/trophy
