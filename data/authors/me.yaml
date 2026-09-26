@@ -32,8 +32,6 @@ links:
   - icon: at-symbol
     url: mailto:smyung.scholar@gmail.com
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/BBARIQ
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/sanghoon-myung/
   - icon: academicons/google-scholar
@@ -47,12 +45,18 @@ interests:
   - Semiconductor Device & Process Optimization
 
 education:
-  - degree: BS in Electronic and Electrical Engineering
-    institution: Kookmin University
-    start: 2003-03-01
-    end: 2010-02-28
-    summary: |
-      GPA: 3.9/4.5
+- degree: Integrated M.S.–Ph.D. Program in Electrical Engineering
+  institution: Sungkyunkwan University
+  start: 2026-09-01
+  summary: |
+    Currently pursuing an integrated M.S.–Ph.D. degree.
+
+- degree: BS in Electronic and Electrical Engineering
+  institution: Kookmin University
+  start: 2003-03-01
+  end: 2010-02-28
+  summary: |
+    GPA: 3.9/4.5
 
 experience:
   - role: Principal Engineer
@@ -75,22 +79,16 @@ skills:
     items:
       - label: Physics-Informed Machine Learning
       - label: TCAD Simulation
-      - label: Predictive Modeling
+      - label: Compact Modeling
       - label: TCAD–AI Hybrid Modeling
       - label: Semiconductor Device & Process Design
       - label: Technical Leadership
   - name: Programming & Tools
     items:
-      - label: Python
-      - label: LaTeX
-      - label: Verilog-A
-      - label: TensorFlow
-      - label: PyTorch
-      - label: Synopsys TCAD
-      - label: HSPICE
-      - label: MySQL
-      - label: SQLite
-
+      - label: Python & Deep Learning Frameworks
+      - label: Synopsys TCAD & HSPICE
+      - label: Verilog-A & Compact Modeling
+      
 awards:
   - title: Grand Prize — DS CTO Symposium
     awarder: Samsung Electronics
